@@ -5,10 +5,23 @@
     cd digital-wave
     ```
 
-2. **Create and activate a virtual environment before installing packages!!!**
-<br></br>
+2. Create virtual env
+   ```bash
+   python -m venv .venv
+   ```
+   
+3. Activate virtual env
+   - Windows:
+   ```bash
+   .venv\Scripts\activate
+   ```
+   
+   - Linux:
+   ```bash
+   source .venv/bin/activate
+   ```
 
-3. Packet initialization. About +-1.5GB
+4. Packet initialization. About +-1.5GB
     ```bash
     pip install --no-cache-dir -r requirements.txt
     ```
